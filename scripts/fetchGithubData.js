@@ -5,7 +5,7 @@ const https = require('https');
 // Configuration
 const config = {
   // List of GitHub accounts to fetch repositories from
-  accounts: ['habitusnet', 'flyerbee', 'rhelvia'],
+  accounts: ['habitusnet', 'auge2u', 'flyerbee', 'rhelvia'],
   // GitHub personal access token (Optional, but recommended to avoid rate limits)
   // Create one at https://github.com/settings/tokens
   token: process.env.GITHUB_TOKEN || '',
