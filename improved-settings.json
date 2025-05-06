@@ -1,0 +1,318 @@
+{
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.formatOnSave": true
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.wordWrap": "on"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "database-client": {
+    "autoSync": true
+  },
+  "debug": {
+    "focusWindowOnBreak": true,
+    "internalConsoleOptions": "neverOpen",
+    "showBreakpointsInOverviewRuler": true,
+    "showInlineBreakpointCandidates": true,
+    "toolBarLocation": "docked"
+  },
+  "editor": {
+    "accessibilitySupport": "off",
+    "bracketPairColorization.enabled": true,
+    "codeActionsOnSave": {
+      "source.fixAll": "always",
+      "source.fixAll.eslint": "always",
+      "source.organizeImports": "always"
+    },
+    "cursorBlinking": "phase",
+    "cursorSmoothCaretAnimation": "on",
+    "defaultFormatter": "esbenp.prettier-vscode",
+    "fontFamily": "'Fira Code', 'JetBrains Mono', 'Cascadia Code', 'Courier New', monospace",
+    "fontLigatures": true,
+    "formatOnSave": true,
+    "guides.bracketPairs": true,
+    "inlineSuggest.enabled": true,
+    "linkedEditing": true,
+    "minimap": {
+      "maxColumn": 100,
+      "renderCharacters": false
+    },
+    "multiCursorModifier": "ctrlCmd",
+    "rulers": [80, 120],
+    "stickyScroll.enabled": true,
+    "suggestSelection": "first",
+    "wordWrap": "on"
+  },
+  "errorLens": {
+    "enabled": true,
+    "enabledInMergeConflict": true,
+    "followCursor": "allLines",
+    "statusBarColorsEnabled": true,
+    "statusBarMessageEnabled": true
+  },
+  "explorer": {
+    "compactFolders": false,
+    "confirmDelete": true,
+    "confirmDragAndDrop": false,
+    "fileNesting": {
+      "enabled": true,
+      "patterns": {
+        "*.js": "${capture}.js.map,${capture}.min.js,${capture}.d.ts,${capture}.test.js,${capture}.spec.js,${capture}.stories.jsx",
+        "*.jsx": "${capture}.js,${capture}.tsx,${capture}.test.jsx,${capture}.spec.jsx,${capture}.stories.jsx",
+        "*.ts": "${capture}.js,${capture}.test.ts,${capture}.spec.ts,${capture}.d.ts,${capture}.stories.tsx",
+        "*.tsx": "${capture}.ts,${capture}.test.tsx,${capture}.spec.tsx,${capture}.stories.tsx",
+        ".env": ".env.*,.env.local,.env.development,.env.test,.env.production",
+        ".gitignore": ".gitattributes,.gitmodules,.gitmessage,.mailmap,.git-blame*",
+        "README.md": "LICENSE,CHANGELOG.md,CONTRIBUTING.md,CODE_OF_CONDUCT.md",
+        "package.json": "package-lock.json,yarn.lock,pnpm-lock.yaml,.npmrc,.yarnrc,.pnpmrc",
+        "tsconfig.json": "tsconfig.*.json"
+      }
+    }
+  },
+  "files": {
+    "autoSave": "onFocusChange",
+    "eol": "\n",
+    "exclude": {
+      "**/.DS_Store": true,
+      "**/.cache": true,
+      "**/.git": true,
+      "**/.hg": true,
+      "**/.next": true,
+      "**/.svn": true,
+      "**/.turbo": true,
+      "**/CVS": true,
+      "**/Thumbs.db": true,
+      "**/build": true,
+      "**/coverage": true,
+      "**/dist": true,
+      "**/node_modules": true,
+      "**/npm-debug.log": true,
+      "**/yarn-error.log": true
+    },
+    "insertFinalNewline": true,
+    "trimTrailingWhitespace": true,
+    "watcherExclude": {
+      "**/.git/objects/**": true,
+      "**/.git/subtree-cache/**": true,
+      "**/.next/**": true,
+      "**/build/**": true,
+      "**/dist/**": true,
+      "**/node_modules/**": true
+    }
+  },
+  "git": {
+    "autofetch": true,
+    "branchProtection": ["main", "master", "develop"],
+    "branchProtectionPrompt": "alwaysPrompt",
+    "confirmSync": false,
+    "enableSmartCommit": true,
+    "fetchOnPull": true,
+    "inputValidation": true,
+    "inputValidationLength": 72,
+    "inputValidationSubjectLength": 50,
+    "openRepositoryInParentFolders": "never",
+    "pruneOnFetch": true,
+    "showPushSuccessNotification": true
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "editor": true,
+    "markdown": false,
+    "plaintext": false,
+    "scminput": false,
+    "sql": false
+  },
+  "javascript": {
+    "preferences": {
+      "importModuleSpecifier": "shortest",
+      "quoteStyle": "single"
+    },
+    "suggest.completeFunctionCalls": true,
+    "updateImportsOnFileMove.enabled": "always"
+  },
+  "mssql": {
+    "connectionGroups": [
+      {
+        "id": "5B00B545-FDBC-4D28-8D05-633059D8755E",
+        "name": "ROOT"
+      }
+    ],
+    "connections": []
+  },
+  "npm": {
+    "autoDetect": "on",
+    "enableRunFromFolder": true,
+    "fetchOnlinePackageInfo": true,
+    "packageManager": "npm",
+    "scriptExplorer.enable": true
+  },
+  "problems": {
+    "showCurrentInStatus": true
+  },
+  "roo-cline": {
+    "allowedCommands": [
+      "npm test",
+      "npm install",
+      "npm run build",
+      "npm run dev",
+      "tsc",
+      "git log",
+      "git diff",
+      "git show",
+      "git status",
+      "mkdir",
+      "ls",
+      "node",
+      "chmod",
+      "python",
+      "pytest",
+      "docker-compose up",
+      "docker-compose down",
+      "cat",
+      "npm run lint",
+      "npm run format",
+      "npm audit fix",
+      "npm ci"
+    ],
+    "enableAutoCompletion": true,
+    "maxResponseFileSizeBytes": 20971520,
+    "searchPath": "./src/**/*",
+    "vsCodeLmModelSelector": {
+      "bestOf": 1,
+      "frequencyPenalty": 0.1,
+      "logitBias": {},
+      "maxTokens": 8000,
+      "model": "claude-3.7-thinking",
+      "modelBestOf": 1,
+      "modelFamily": "claude",
+      "modelFrequencyPenalty": 0.1,
+      "modelLogitBias": {},
+      "modelMaxTokens": 8000,
+      "modelN": 1,
+      "modelName": "claude-3.7-thinking",
+      "modelPresencePenalty": 0.1,
+      "modelProvider": "anthropic",
+      "modelStop": ["\n\n\n", "###", "```"],
+      "modelStopSequence": "\n\n\n",
+      "modelStopSequences": ["\n\n\n", "###", "```"],
+      "modelStream": true,
+      "modelTemperature": 0.3,
+      "modelTopP": 0.95,
+      "modelType": "claude",
+      "modelVersion": "3.7-thinking",
+      "n": 1,
+      "presencePenalty": 0.1,
+      "stop": ["\n\n\n", "###", "```"],
+      "stopSequence": "\n\n\n",
+      "stopSequences": ["\n\n\n", "###", "```"],
+      "stream": true,
+      "temperature": 0.3,
+      "topP": 0.95,
+      "vendor": "anthropic"
+    }
+  },
+  "search": {
+    "exclude": {
+      "**/.git": true,
+      "**/.next": true,
+      "**/bower_components": true,
+      "**/build": true,
+      "**/coverage": true,
+      "**/dist": true,
+      "**/node_modules": true
+    },
+    "smartCase": true,
+    "useGlobalIgnoreFiles": true,
+    "useIgnoreFiles": true
+  },
+  "task": {
+    "autoDetect": "on",
+    "quickOpen.history": 10,
+    "saveBeforeRun": "always"
+  },
+  "telemetry": {
+    "telemetryLevel": "error"
+  },
+  "terminal.integrated": {
+    "copyOnSelection": true,
+    "cursorBlinking": true,
+    "cursorStyle": "line",
+    "defaultProfile.osx": "zsh",
+    "enableMultiLinePasteWarning": false,
+    "fontFamily": "'JetBrains Mono', 'MesloLGS NF', monospace",
+    "fontSize": 13,
+    "persistentSessionReviveProcess": "never",
+    "tabs": {
+      "enabled": true
+    }
+  },
+  "typescript": {
+    "enablePromptUseWorkspaceTsdk": true,
+    "preferences": {
+      "importModuleSpecifier": "shortest",
+      "quoteStyle": "single"
+    },
+    "suggest.completeFunctionCalls": true,
+    "tsdk": "node_modules/typescript/lib",
+    "updateImportsOnFileMove.enabled": "always"
+  },
+  "update": {
+    "mode": "start",
+    "showReleaseNotes": true
+  },
+  "vsicons": {
+    "dontShowNewVersionMessage": true,
+    "presets": {
+      "node": true,
+      "python": true,
+      "react": true,
+      "svelte": true,
+      "vue": true
+    },
+    "projectDetection.autoReload": true
+  },
+  "workbench": {
+    "colorTheme": "GitHub Dark Default",
+    "editor": {
+      "closeOnFileDelete": true,
+      "enablePreview": false,
+      "limit": {
+        "enabled": true,
+        "perEditorGroup": true,
+        "value": 8
+      },
+      "tabSizing": "shrink"
+    },
+    "iconTheme": "vscode-icons",
+    "list": {
+      "smoothScrolling": true
+    },
+    "startupEditor": "none",
+    "tree": {
+      "indent": 16,
+      "renderIndentGuides": "always"
+    }
+  }
+}
